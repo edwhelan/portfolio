@@ -3,16 +3,26 @@ import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div>
-    <div>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-        >
+    <div className="header">
+      <div>
+        <Link to="/">
           {siteTitle}
         </Link>
-      </h1>
+      </div>
+      <div className='headLinks'>
+        <div>
+          <Link to="/">
+            Projects
+          </Link>
+        </div>
+        <div>
+          <Link to="/">
+            Me
+          </Link>
+        </div>
+      </div>
     </div>
-  </div>
+  </div >
 )
 
 export default Header

@@ -5,9 +5,19 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-
-    <Link to="/page-2/">Go to page 2</Link>
+    <div>
+      {/* hero image with adaptive views */}
+    </div>
+    <div>
+      {/* small about me section */}
+    </div>
+    <div>
+      {/* projects section. Show projects in cell format. Single Column on mobile */}
+    </div>
+    <div>
+      {/* contact information */}
+    </div>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout >
 )
 

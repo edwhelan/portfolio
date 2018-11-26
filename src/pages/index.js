@@ -25,9 +25,15 @@ const IndexPage = () => (
     </div>
     <section className='project-area'>
       {/* projects section. Show projects in cell format. Single Column on mobile */}
-      <div><a href='http://www.u-mood.com'><img alt='screen shot of u-mood.com landing page' src={umoodSite} /></a></div>
+      <div>
+        <a href='http://www.u-mood.com'><img alt='screen shot of u-mood.com landing page' src={umoodSite} /></a>
+        <div className='githubLink'>#uygjygjygjhgjhgjhgjhg</div>
+      </div>
+
       <div><a href='http://ec2-18-188-167-90.us-east-2.compute.amazonaws.com/'><img alt='screenshot of parity site landing page' src={paritySite} /></a></div>
+
       <div><a href='http://www.rarecapsule.com'><img alt='screenshot of rarecapsule.com landing page' src={rarecapsuleSite} /></a></div>
+
       <div><a href='#'><img src={rarecapsuleSite} /></a></div>
 
     </section>

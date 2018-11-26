@@ -6,7 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   height: 100%;
   width: 100%;
@@ -14,6 +18,7 @@ body {
   background:#696969;
   background-color: #9c92ac;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%2330293a' fill-opacity='0.41'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: asd
 }
 
 .header {
@@ -23,7 +28,6 @@ body {
   width: 100%;
   height: 2em;
   border-bottom: 2px solid rgba(0, 0, 0, .4);
-
 }
 .header a {
   margin: 1em;
@@ -35,6 +39,13 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .body-area{
   height: 100%;
 }
@@ -96,15 +107,25 @@ body {
   width: 100%;
 }
 
-.githubLink{
-  background: #FD8698;
+
+.githubLink {
+  color: white;
+  background-color: rgba(0, 0, 0, .4);
+  outline: 1px solid white;
+}
+
+/* hover function for large sizes */
+/* .githubLink{
+  background: rgba(0, 0, 0, .7);
   opacity: 0;
+  color: whitesmoke;
   position: absolute;
   padding: 0;
   transition: opacity .5s;
+  margin-top: -10%;
 }
 
-.project-area:hover  .githubLink {
+.project-area div:hover  .githubLink {
   opacity: .9;
   transition: opacity .5s;
-}
+} */

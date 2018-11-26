@@ -27,7 +27,14 @@ const IndexPage = () => (
       {/* projects section. Show projects in cell format. Single Column on mobile */}
       <div>
         <a href='http://www.u-mood.com'><img alt='screen shot of u-mood.com landing page' src={umoodSite} /></a>
-        <div className='githubLink'>#uygjygjygjhgjhgjhgjhg</div>
+        <div className='githubLink'>
+          <h3>U-Mood<a href='https://github.com/samerickson95/uMood'>(Link to github)</a></h3>
+          <p> About: U-Mood is a mental health app to help users track data from a depression screener.
+          <br />
+            Built with: Javascript, Node.JS, Express.JS, PostgreSQL, Chart.JS, Git, Amazon Web Services
+
+          </p>
+        </div>
       </div>
 
       <div><a href='http://ec2-18-188-167-90.us-east-2.compute.amazonaws.com/'><img alt='screenshot of parity site landing page' src={paritySite} /></a></div>

@@ -4,6 +4,9 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 import backgroundHeadshot from '../images/headshot.jpg'
+import paritySite from '../images/parity.png'
+import rarecapsuleSite from '../images/rare-capsule.png'
+import umoodSite from '../images/u-mood.png'
 
 const IndexPage = () => (
   <Layout className='body-area'>
@@ -22,10 +25,11 @@ const IndexPage = () => (
     </div>
     <section className='project-area'>
       {/* projects section. Show projects in cell format. Single Column on mobile */}
-      <div>u-mood</div>
-      <div>parity</div>
-      <div>rare-capsule</div>
-      <div>whats the game</div>
+      <div><a href='http://www.u-mood.com'><img alt='screen shot of u-mood.com landing page' src={umoodSite} /></a></div>
+      <div><a href='http://ec2-18-188-167-90.us-east-2.compute.amazonaws.com/'><img alt='screenshot of parity site landing page' src={paritySite} /></a></div>
+      <div><a href='http://www.rarecapsule.com'><img alt='screenshot of rarecapsule.com landing page' src={rarecapsuleSite} /></a></div>
+      <div><a href='#'><img src={rarecapsuleSite} /></a></div>
+
     </section>
     <div>
       {/* contact information */}

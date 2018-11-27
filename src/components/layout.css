@@ -194,3 +194,24 @@ width: 100%;
 }
 
 }
+
+@media screen and (min-width: 950px){
+.hero-text{
+  width: 60%;
+}
+.headshotImage{
+  width: 60%;
+  margin: 0 20%;
+}
+
+.githubLink{
+  margin-top: -12%;
+}
+.project-area div {
+  width: 60%;
+}
+.contactInfo {
+  margin-top: -15%;
+}
+
+}

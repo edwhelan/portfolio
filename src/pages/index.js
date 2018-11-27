@@ -7,12 +7,13 @@ import backgroundHeadshot from '../images/headshot.jpg'
 import paritySite from '../images/parity.png'
 import rarecapsuleSite from '../images/rare-capsule.png'
 import umoodSite from '../images/u-mood.png'
+import bridge from '../images/bridgeMural.jpg'
 
 const IndexPage = () => (
   <Layout className='body-area'>
     <div className="hero-image">
       {/* hero image with adaptive views */}
-      <img className='headshotImage' src={backgroundHeadshot} />
+      <img className='headshotImage' />
       <div className="hero-text">
         <h1>Ed.Whe</h1>
         <p>Edward Whelan</p>
@@ -55,9 +56,11 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-
-
     </section>
+    <div>
+      {/* landscape image */}
+      <img className='bridgeMural' alt='mural underneath atlanta bridge' src={bridge} />
+    </div>
     <div>
       {/* contact information */}
     </div>

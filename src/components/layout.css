@@ -25,6 +25,7 @@ body {
 
 
 .header {
+  background: rgba(0, 0, 0, .7);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,9 +68,11 @@ body {
   margin-bottom: 10%;
 }
 .headshotImage{
+  content:url('../images/headshot.jpg');
   width: 100%;
+  height: 100%;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, .8)
+  border: 2px solid rgba(255, 255, 255, .8);
 }
 
 /* Place text in the middle of the image */
@@ -90,7 +93,6 @@ body {
 
 .about-me p {
   color: antiquewhite;
-  outline: 1px solid blue;
   margin: 0 10px;
   margin-bottom: 10%;
 }
@@ -113,8 +115,13 @@ body {
 
 .githubLink {
   color: white;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .8);
   outline: 1px solid white;
+}
+
+.bridgeMural {
+  width: 100%;
+  outline: rgba(0, 0, 0, .4);
 }
 
 /* NEXT MEDIA SIZE  */
@@ -134,5 +141,8 @@ body {
   opacity: .9;
   transition: opacity .5s;
 }
-
+.headshotImage{
+  content:url('../images/expandedheadshot.jpg');
+  border-radius: 0%;
+}
 }

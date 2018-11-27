@@ -14,11 +14,8 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  /* background: linear-gradient(0.25turn, #2F4F4F, #000000); */
-  background:#696969;
-  background-color: #9c92ac;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%2330293a' fill-opacity='0.41'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
-    /* Create the parallax scrolling effect */
+  background-color: #7a7780;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23cdc5d9' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-position: center;
 }
@@ -100,7 +97,14 @@ body {
 .project-area{
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.project-area h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3%;
 }
 
 .project-area div {
@@ -119,7 +123,17 @@ body {
   outline: 1px solid white;
 }
 
+.githubLink a {
+  text-decoration: none;
+  color: white;
+}
+
+.contactInfo{
+  outline: 1px solid blueviolet;
+  margin-top: -30%;
+}
 .bridgeMural {
+  height: 100%;
   width: 100%;
   outline: rgba(0, 0, 0, .4);
 }
@@ -141,8 +155,18 @@ body {
   opacity: .9;
   transition: opacity .5s;
 }
+
+.hero-text{
+  width: 80%;
+}
 .headshotImage{
   content:url('../images/expandedheadshot.jpg');
   border-radius: 0%;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.project-area div {
+  width: 80%;
 }
 }

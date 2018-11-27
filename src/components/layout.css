@@ -114,18 +114,22 @@ body {
   outline: 1px solid white;
 }
 
-/* hover function for large sizes */
-/* .githubLink{
+/* NEXT MEDIA SIZE  */
+@media screen and (min-width: 450px){
+  /* hover function for large sizes */
+.githubLink{
   background: rgba(0, 0, 0, .7);
   opacity: 0;
   color: whitesmoke;
   position: absolute;
   padding: 0;
   transition: opacity .5s;
-  margin-top: -10%;
+  margin-top: -30%;
 }
 
 .project-area div:hover  .githubLink {
   opacity: .9;
   transition: opacity .5s;
-} */
+}
+
+}

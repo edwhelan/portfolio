@@ -5,18 +5,18 @@ const Header = ({ siteTitle }) => (
   <div>
     <div className="header">
       <div>
-        <Link to="/">
+        <Link to="#top">
           {siteTitle}
         </Link>
       </div>
       <div className='headLinks'>
         <div>
-          <Link to="/">
+          <Link to="#featuredProjects">
             Projects
           </Link>
         </div>
         <div>
-          <Link to="/">
+          <Link to="#aboutMe">
             Me
           </Link>
         </div>

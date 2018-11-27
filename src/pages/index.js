@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Layout from '../components/layout'
 
 import paritySite from '../images/parity.png'
@@ -10,7 +13,7 @@ import bridge from '../images/bridgeMural.jpg'
 
 const IndexPage = () => (
   <Layout className='body-area'>
-    <div className="hero-image">
+    <div className="hero-image" name='top'>
       {/* hero image with adaptive views */}
       <img className='headshotImage' />
       <div className="hero-text">
@@ -23,7 +26,7 @@ const IndexPage = () => (
 </p>
       {/* small about me section */}
     </div>
-    <section className='project-area'>
+    <section className='project-area' name='featuredProjects'>
       <h2>Featured Projects</h2>
       {/* projects section. Show projects in cell format. Single Column on mobile */}
       <div>
@@ -57,11 +60,19 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className='contactArea'>
+    <section className='contactArea' name='aboutMe'>
       {/* landscape image and contact information */}
       <img className='bridgeMural' alt='mural underneath atlanta bridge' src={bridge} />
       <div className='contactInfo'>
-        <p>Information goes here</p>
+        <p>
+          If you are interested in contacting me please feel free to reach out at any of the following.
+          <br />
+          <div className='iconRow'>
+            <a href='mailto:vroxing@gmail.com'><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href='https://www.linkedin.com/in/edward-whelan-240887123/'> <FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href='https://github.com/edwhelan'><FontAwesomeIcon icon={faGithub} /></a>
+          </div>
+        </p>
       </div>
     </section>
     {/* <Link to="/page-2/">Go to page 2</Link> */}

@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         </div>
         <div>
           <Link to="#aboutMe">
-            Me
+            Contact
           </Link>
         </div>
       </div>

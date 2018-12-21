@@ -91,6 +91,17 @@ body {
   margin: 0;
 }
 
+.about-me-callout {
+  color: white;
+  text-align: center;
+}
+
+.about-me {
+background-color: rgba(0, 0, 0, .7);
+outline: 1px solid white;
+
+}
+
 .about-me p {
   color: white;
   margin: 0 10px;
@@ -182,6 +193,10 @@ width: 100%;
 .hero-text{
   width: 80%;
 }
+.about-me{
+  width: 80%;
+  margin: 0 10%;
+}
 .headshotImage{
   content:url('../images/expandedheadshot.jpg');
   border-radius: 0%;
@@ -198,6 +213,11 @@ width: 100%;
 @media screen and (min-width: 950px){
 .hero-text{
   width: 60%;
+}
+
+.about-me{
+  width: 60%;
+  margin: 0 20%;
 }
 .headshotImage{
   width: 60%;

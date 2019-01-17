@@ -9,7 +9,7 @@ import Layout from '../components/layout'
 import paritySite from '../images/parity.png'
 import rarecapsuleSite from '../images/rare-capsule.png'
 import umoodSite from '../images/u-mood.png'
-import bridge from '../images/bridgeMural.JPG'
+import bridge from '../images/bridgeMural.jpg'
 import naughtySite from '../images/naughtySite.png'
 
 const IndexPage = () => (

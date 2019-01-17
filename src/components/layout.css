@@ -198,7 +198,7 @@ width: 100%;
   margin: 0 10%;
 }
 .headshotImage{
-  content:url('../images/expandedheadshot.jpeg');
+  content:url('../images/expandedHeadshot.jpeg');
   border-radius: 0%;
   width: 80%;
   margin: 0 10%;

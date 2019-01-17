@@ -68,7 +68,7 @@ body {
   padding-top: 6%;
 }
 .headshotImage{
-  content:url('./headshot.jpg');
+  content:url('../images/headshot.jpg');
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -198,7 +198,7 @@ width: 100%;
   margin: 0 10%;
 }
 .headshotImage{
-  content:url('./expandedheadshot.jpg');
+  content:url('../images/expandedheadshot.jpg');
   border-radius: 0%;
   width: 80%;
   margin: 0 10%;

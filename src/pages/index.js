@@ -6,11 +6,11 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Layout from '../components/layout'
 
-import paritySite from './parity.png'
-import rarecapsuleSite from './rare-capsule.png'
-import umoodSite from './u-mood.png'
-import bridge from './bridgeMural.jpg'
-import naughtySite from './naughtySite.png'
+import paritySite from '../images/parity.png'
+import rarecapsuleSite from '../images/rare-capsule.png'
+import umoodSite from '../images/u-mood.png'
+import bridge from '../images/bridgeMural.jpg'
+import naughtySite from '../images/naughtySite.png'
 
 const IndexPage = () => (
   <Layout className='body-area'>

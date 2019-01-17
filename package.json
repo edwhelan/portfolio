@@ -2,7 +2,7 @@
   "name": "edward",
   "description": "Edward Whelan",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ed Whelan <vroxing@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
